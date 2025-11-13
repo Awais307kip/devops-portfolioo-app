@@ -1,0 +1,7 @@
+cd devops-portfolio-app
+docker compose up --build
+# → API          → http://localhost:5000
+# → Prometheus   → http://localhost:9090/targets (shows UP)
+# → Grafana      → http://localhost:3000 (admin/admin)
+#     → Add Prometheus datasource (URL: http://prometheus:9090)
+#     → Import dashboard ID 14105 (Flask by Prometheus)
