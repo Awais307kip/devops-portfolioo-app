@@ -1,0 +1,5 @@
+
+cd devops-portfolio-app
+docker build -t coffee-api:latest .
+docker run -p 5000:5000 coffee-api:latest
+# → Open http://localhost:5000 and http://localhost:5000/metrics
